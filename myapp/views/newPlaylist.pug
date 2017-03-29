@@ -1,0 +1,9 @@
+extends layout
+
+block content
+
+    h2 Add Playlist
+
+    form(method='POST', action='/addPlaylist')
+        input(type='text', name='newPlaylist')
+        input(type='submit', value='Add Playlist')

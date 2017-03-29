@@ -1,0 +1,11 @@
+extends layout
+
+block content
+      form(method='POST', action='/register')
+      input(type='text', name='username')
+      br
+      input(type='password', name='password')
+      br
+      input(type='password', name='re-enter')
+      br
+      input(type='submit', value='register')
